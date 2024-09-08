@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Table</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 10px;
+        }
+        .red {
+            background-color: red;
+        }
+        .silver {
+            background-color: silver;
+        }
+        .gold {
+            background-color: gold;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            flex-direction: column;
+            text-align: center; /* Center text inside elements */
+        }
+    </style>
+</head>
+<body>
+    <h1>Color Table</h1>
+    <table>
+        <tr>
+            <td class="red" rowspan="2">red cell</td>
+            <td class="silver">silver cell</td>
+        </tr>
+        <tr>
+            <td class="gold">gold cell</td>
+        </tr>
+    </table>
+</body>
+</html>
